@@ -63,7 +63,7 @@
 <!-- STEP 4: Surround the IMG element below with a pair of FIGURE tags -->
 
 <!-- STEP 1: Insert an IMG element with the src attribute pointing to the image called "mini-figure" in the 'images' directory -->
-
+				<img src="img/mini-figure.png" alt="Mini-Figure" />
 <!-- STEP 2: Add an alt attribute with a short phrase that describes the image -->
 <!-- STEP 3: Determine the native image dimensions (height and width) using your file system, and add a height and width attribute to the IMG element above with the appropriate values -->
 <!-- STEP 5: Add a FIGCAPTION element below (but before you close the FIGURE element), and add the caption, "Mini figure by Vanja (Public Domain)" -->
