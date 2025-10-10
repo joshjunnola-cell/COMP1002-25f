@@ -19,14 +19,10 @@
 <!-- STEP 4b: Create a list item inside the UL (LI) -->
 <!-- STEP 4c: Insert an A element inside the LI, and add an href that points to the HTML page 'red.php' - include also some text for the hyperlink -->
 <!-- STEP 4d: Add an appropriate title attribute value for the A element, upload the changed page and try it out in a browser - proceed next to open up red.php in your code editor for STEP 5 -->
-				<nav>
-				    <ul>
-						<li><b>Home</b></li>
-						<li><a href="red.php">Red blocks</a></li>
-						<li><a href="blue.php">Blue blocks</a></li>
-						<li><a href="yellow.php">Yellow blocks</a></li>	  
-				    </ul>
-  				</nav>
+<?php
+	// Grab site navigation
+	include("includes/nav.php");
+?>
 
 <!-- STEP 6: Build a link on this page to index.php (it might seem silly), so that the navigation is consistent from page-to-page - this is very important when building global navigation for Web apps from a usability perspective -->
 <!-- STEP 7: Include navigation links for the pages blue.php and yellow.php - make sure all NAV elements on all pages are the same - upload your files and test your work -->
