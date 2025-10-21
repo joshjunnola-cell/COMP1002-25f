@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fef3e7;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    background-color: #5c1a0a;
+}
+
+.logo {
+    color: #fffaf0;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
