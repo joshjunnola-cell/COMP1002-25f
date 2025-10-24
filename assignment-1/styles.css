@@ -11,18 +11,31 @@ body {
 
 .main {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     background-color: #5c1a0a;
+    padding: 1rem 2rem;
 }
 
 .logo {
-    color: #fffaf0;
+    font-size: 1.5rem;
     font-weight: bold;
     letter-spacing: 1px;
 }
 
-.navlinks{
+.links{
     list-style: none;
     display: flex;
     gap: 2rem;
+}
+
+.links a {
+    text-decoration: none;
+    color: #fffaf0;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.links a:hover {
+    color: #ffcc99;
 }
