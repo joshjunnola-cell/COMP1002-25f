@@ -9,6 +9,10 @@ body {
     background-color: #fef3e7;
 }
 
+h1 {
+    text-align: center;
+}
+
 .main {
     display: flex;
     justify-content: space-between;
@@ -38,4 +42,8 @@ body {
 
 .links a:hover {
     color: #ffcc99;
+}
+
+.banner {
+    background: linear-gradient(to bottom, #f57c00, #fbc02d)
 }
