@@ -27,7 +27,58 @@
 <div class="split-section">
     <div class="left-column">
     <h2><em>Fan Favourites!</em></h2>
+       
+        <p>
+        <label for="pizza">
+          <span>Pizza Toppings:</span>  
+        </label>
+        <select id="pizza" name="customer-pizza">
+            <option value="pepperoni">Pepperoni</option>
+            <option value="meat-lovers">Meat Lover's</option>
+            <option value="vegetarian">Vegetarian</option>
+            <option value="cheese">Cheese</option>
+            <option value="margherita">Margherita</option>
+        </select>
+        </p>
 
+            <fieldset>
+                <legend>Size (Number of Slices):</legend>
+            <ul>
+                    <li>
+                <label for="size_1">
+                <input type="radio" id="size_1" name="small" value="small" />
+                Small (6 Slices)</label> 
+                    </li>
+                    <li>
+                <label for="size_2">     
+                 <input type="radio" id="size_2" name="medium" value="medium" />
+                Medium (8 Slices)</label>                
+                    </li>
+                    <li>    
+                 <input type="radio" id="size_3" name="large" value="large" />
+                <label for="size_3">Large (10 Slices)</label>                
+                    </li>
+                    <li>    
+                 <input type="radio" id="size_4" name="extra-large" value="extra-large" />
+                <label for="size_4">Extra-Large (12 Slices)</label>                
+                    </li>
+                    <li>      
+                 <input type="radio" id="size_5" name="box-size" value="box-size" />
+                <label for="size_5">Box-Sized (24 Squares)</label>                
+                    </li> 
+            </ul>
+            </fieldset>
+
+                <p>
+        <label for="dough">
+          <span>Pizza Crust:</span>  
+        </label>
+        <select id="dough" name="customer-dough">
+            <option value="sourdough">Sourdough</option>
+            <option value="french-bread">French Bread</option>
+            <option value="flatbread">Flatbread</option>
+        </select>
+        </p>
     </div>
     <div class="right-column">
     <h2><em>Choose</em> your own <em>Toppings!</em></h2>
