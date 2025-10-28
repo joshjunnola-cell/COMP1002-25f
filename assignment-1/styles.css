@@ -13,6 +13,23 @@ h1 {
     text-align: center;
 }
 
+/* information on how to "split screen" a section learned from google https://www.google.com/search?q=how+to+split+a+part+of+a+website+into+two+sections&oq=how+to+split+a+part+of+a+website+into+two+sections&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCTEyMjc5ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8 */
+
+.split-section{
+    display: flex;
+    width: 100%;
+}
+
+.left-column {
+    width: 50%;
+    text-align: center;
+}
+
+.right-column {
+    width: 50%;
+    text-align: center;
+}
+
 .main {
     display: flex;
     justify-content: space-between;
