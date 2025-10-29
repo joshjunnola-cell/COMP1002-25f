@@ -42,6 +42,17 @@
         </select>
         </p>
 
+        <p>
+        <label for="dough">
+          <span>Pizza Crust:</span>  
+        </label>
+        <select id="dough" name="customer-dough">
+            <option value="sourdough">Sourdough</option>
+            <option value="french-bread">French Bread</option>
+            <option value="flatbread">Flatbread</option>
+        </select>
+        </p>
+
             <fieldset>
                 <legend>Size (Number of Slices):</legend>
             <ul>
@@ -77,18 +88,8 @@
                     </li> 
             </ul>
             </fieldset>
-
-                <p>
-        <label for="dough">
-          <span>Pizza Crust:</span>  
-        </label>
-        <select id="dough" name="customer-dough">
-            <option value="sourdough">Sourdough</option>
-            <option value="french-bread">French Bread</option>
-            <option value="flatbread">Flatbread</option>
-        </select>
-        </p>
     </div>
+
     <div class="right-column"> <!--RIGHT SIDED COLUMN IS HERE!!!!!!!!!!!!!!!!!-->
     <h2><em>Choose</em> your own <em>Toppings!</em></h2>
 
@@ -100,6 +101,13 @@
         <button type="submit">Place Order</button>
     </p>
 </section>
+    
+    <p>
+       <small><input type="checkbox" id="verify" name="pickup" value="onlypick" required />
+        <label for="verify">I will pickup my order at the store, and I understand that Pizzasaurus does not offer delivery services. 
+         I am responsible for transporting my order safely to my location.
+        </label></small>
+    </p>
 
 </form>
 </main>
