@@ -24,11 +24,12 @@
     </header>
 <main>
     <!--information on how to "split screen" a section learned from google https://www.google.com/search?q=how+to+split+a+part+of+a+website+into+two+sections&oq=how+to+split+a+part+of+a+website+into+two+sections&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCTEyMjc5ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8-->
-<form>
+
     <div class="split-section">
     <div class="left-column"> <!--LEFT SIDED COLUMN IS HERE!!!!!!!!!!!!!!!!!-->
-    <h2><em>Fan Favourites!</em></h2>
-       
+ <form>  
+        <h2><em>Fan Favourites!</em></h2>
+  
         <p>
         <label for="pizza">
           <span>Pizza Toppings:</span>  
@@ -131,14 +132,14 @@
 
         <p>
             <fieldset class="toppings">
-            <legend>Additional Toppings:</legend>  
+            <legend>Toppings:</legend>  
 
             <label for="mushrooms">
-            <input type="checkbox" id="mushrooms" name="topping" value="mushrooms" />
+            <input type="checkbox" id="mushrooms" name="topping[]" value="mushrooms" />
             Mushrooms    
             </label>
             <label for="onions">
-            <input type="checkbox" id="onions" name="topping" value="onions" />
+            <input type="checkbox" id="onions" name="topping[]" value="onions" />
             Onions
             </label>
             <label for="green-peppers">
@@ -174,6 +175,18 @@
             Tomatoes
             </label>
             </fieldset>
+
+        <p>
+        <label for="dough">
+          <span>Pizza Crust:</span>  
+        </label>
+        <select id="dough" name="customer-dough">
+            <option value="sourdough">Sourdough</option>
+            <option value="french-bread">French Bread</option>
+            <option value="flatbread">Flatbread</option>
+        </select>
+        </p>
+
     </div>
 </div>
     <p>
