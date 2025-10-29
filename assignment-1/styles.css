@@ -45,7 +45,19 @@ h1 {
 }
 
 .banner {
-    background: linear-gradient(to bottom, #f57c00, #fbc02d)
+    background: linear-gradient(to bottom, #f57c00, #fbc02d);
+    padding: 2rem 2rem;
+    text-align: left;
+    position: relative;
+}
+
+.order-button {
+    background-color: #5c1a0a;
+    color: #fffaf0;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
 }
 
 /* information on how to "split screen" a section learned from google https://www.google.com/search?q=how+to+split+a+part+of+a+website+into+two+sections&oq=how+to+split+a+part+of+a+website+into+two+sections&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCTEyMjc5ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8 */
