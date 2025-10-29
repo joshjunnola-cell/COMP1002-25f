@@ -93,14 +93,62 @@
     <div class="right-column"> <!--RIGHT SIDED COLUMN IS HERE!!!!!!!!!!!!!!!!!-->
     <h2><em>Choose</em> your own <em>Toppings!</em></h2>
 
-    </div>
-</div>
+                <fieldset>
+                <legend>Size (Number of Slices):</legend>
+            <ul>
+                    <li>
+                  <label for="size_1">
+                  <input type="radio" id="size_1" name="size" value="small" />
+                  Small (6 Slices)
+                  </label> 
+                    </li>
+                    <li>
+                  <label for="size_2">     
+                  <input type="radio" id="size_2" name="size" value="medium" />
+                  Medium (8 Slices)
+                  </label>                
+                    </li>
+                    <li>
+                  <label for="size_3">          
+                 <input type="radio" id="size_3" name="size" value="large" />
+                  Large (10 Slices)
+                  </label>                
+                    </li>
+                    <li> 
+                  <label for="size_4">         
+                  <input type="radio" id="size_4" name="size" value="extra-large" />
+                  Extra-Large (12 Slices)
+                  </label>                
+                    </li>
+                    <li>   
+                  <label for="size_5">         
+                  <input type="radio" id="size_5" name="size" value="box-size" />
+                  Box-Sized (24 Squares)
+                  </label>                
+                    </li> 
+            </ul>
+            </fieldset>
 
-<section>
-    <p>
-        <button type="submit">Place Order</button>
-    </p>
-</section>
+        <p>
+        <label for="toppings">
+          <legend>Additional Toppings:</legend>  
+        </label>
+        <select id="toppings" name="customer-toppings" multiple size="5">
+            <option value="mushrooms">Mushrooms</option>
+            <option value="onions">Onions</option>
+            <option value="green-peppers">Green Peppers</option>
+            <option value="black-olives">Black Olives</option>
+            <option value="jalapenos">Jalapenos</option>
+            <option value="extra-cheese">Extra Cheese</option>
+            <option value="pineapple">Pineapple</option>
+            <option value="spinach">Spinach</option>
+            <option value="feta-cheese">Feta Cheese</option>
+            <option value="tomatoes">Tomatoes</option>
+        </select>
+        </p>
+    </div>
+</form>
+</div>
     
     <p>
        <small><input type="checkbox" id="verify" name="pickup" value="onlypick" required />
@@ -109,7 +157,7 @@
         </label></small>
     </p>
 
-</form>
+
 </main>
 
 <footer>
