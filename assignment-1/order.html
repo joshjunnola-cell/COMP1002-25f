@@ -130,26 +130,53 @@
             </fieldset>
 
         <p>
-        <label for="toppings">
-          <legend>Additional Toppings:</legend>  
-        </label>
-        <select id="toppings" name="customer-toppings" multiple size="5">
-            <option value="mushrooms">Mushrooms</option>
-            <option value="onions">Onions</option>
-            <option value="green-peppers">Green Peppers</option>
-            <option value="black-olives">Black Olives</option>
-            <option value="jalapenos">Jalapenos</option>
-            <option value="extra-cheese">Extra Cheese</option>
-            <option value="pineapple">Pineapple</option>
-            <option value="spinach">Spinach</option>
-            <option value="feta-cheese">Feta Cheese</option>
-            <option value="tomatoes">Tomatoes</option>
-        </select>
-        </p>
+            <fieldset>
+            <legend>Additional Toppings:</legend>  
+        <form>
+            <label for="mushrooms">
+            <input type="checkbox" id="mushrooms" name="topping" value="mushrooms" />
+            Mushrooms    
+            </label><br>
+            <label for="onions">
+            <input type="checkbox" id="onions" name="topping" value="onions" />
+            Onions
+            </label><br>
+            <label for="green-peppers">
+            <input type="checkbox" id="green-peppers" name="topping" value="green-peppers" />
+            Green Peppers
+            </label><br>
+            <label for="black-olives">
+            <input type="checkbox" id="black-olives" name="topping" value="black-olives" />
+            Black Olives
+            </label><br>
+            <label for="jalapenos"> 
+            <input type="checkbox" id="jalapenos" name="topping" value="jalapenos" />
+            Jalapenos
+            </label><br>
+            <label for="extra-cheese">
+            <input type="checkbox" id="extra-cheese" name="topping" value="extra-cheese" />
+            Extra Cheese
+            </label><br>
+            <label for="pineapple">
+            <input type="checkbox" id="pineapple" name="topping" value="pineapple" />
+            Pineapple
+            </label><br>
+            <label for="spinach">
+            <input type="checkbox" id="spinach" name="topping" value="spinach" />
+            Spinach 
+            </label><br>
+            <label for="feta-cheese">
+            <input type="checkbox" id="feta-cheese" name="topping" value="feta-cheese" />
+            Feta Cheese
+            </label><br>
+            <label for="tomatoes">
+            <input type="checkbox" id="tomatoes" name="topping" value="tomatoes" />
+            Tomatoes
+            </label><br>
+        </form>
+            </fieldset>
     </div>
-</form>
 </div>
-    
     <p>
        <small><input type="checkbox" id="verify" name="pickup" value="onlypick" required />
         <label for="verify">I will pickup my order at the store, and I understand that Pizzasaurus does not offer delivery services. 
@@ -157,6 +184,10 @@
         </label></small>
     </p>
 
+    <p>
+        <button type="submit">Submit Order</button>
+    </p>    
+</form>
 
 </main>
 
