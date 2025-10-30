@@ -46,27 +46,53 @@ h1 {
 
 
 .banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background: linear-gradient(to bottom, #f57c00, #fbc02d);
-    padding: 2rem 2rem;
-    text-align: left;
-    position: relative; 
+    padding: 4rem 2rem;
 }
 
+.banner-logo { /*left side*/
+    width: 100%;
+    height: auto;
+}
 
+.logo-image {
+    width: 100%;
+    height: auto;
+}
+
+.banner-text { /*right side*/
+    flex: 1;
+    padding-left: 2rem;
+}
+
+.banner-text h1 {
+    font-size: 3rem;
+    color: #5c1a0a;
+    margin-bottom: 1rem;
+}
+
+.banner-text p {
+    font-size: 1.25rem;
+    color: #000000;
+    margin-bottom: 2rem;
+}
 
 .banner-order {
     background: linear-gradient(to bottom, #f57c00, #fbc02d);
-    padding: 2rem 2rem;
+    padding: 32px 32px;
     text-align: left;
     position: relative;
 }
 
 .order-button {
-    background-color: #5c1a0a;
+    background-color: #965811;
     color: #fffaf0;
     padding: 0.75rem 1.5rem;
-    border-radius: 5px;
-    font-size: 1rem;
+    border-radius: 4px;
+    font-size: 16px;
     transition: background-color 0.3s ease;
 }
 
