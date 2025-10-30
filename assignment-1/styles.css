@@ -17,7 +17,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #5c1a0a;
+    background-color: #8e3c10;
     padding: 1rem 2rem;
 }
 
@@ -59,9 +59,17 @@ h1 {
     text-align: center;
 }
 
+/* Image masking info from google https://www.google.com/search?q=css+fade+multiple+image+edges+with+linear+gradient&sca_esv=b8281854a4bc4e84&sxsrf=AE3TifMxLzj0ZIql_K0rroMI2AOSnZa0Cw%3A1761863096656&ei=uOUDaZjqJ-i40PEPu6ag8QQ&oq=css+fade+multiple+image+edges+with+lin&gs_lp=Egxnd3Mtd2l6LXNlcnAiJmNzcyBmYWRlIG11bHRpcGxlIGltYWdlIGVkZ2VzIHdpdGggbGluKgIIADIFECEYoAEyBRAhGKABMgUQIRigATIFECEYoAEyBRAhGKABSJTsAVC5CljA4AFwBHgBkAEAmAGUAaABtDqqAQUzMC40MrgBA8gBAPgBAZgCN6ACqCzCAgoQABhHGNYEGLADwgIEECMYJ8ICCBAAGIAEGKIEwgIFEAAY7wXCAgcQIxiwAhgnwgIKECMYgAQYigUYJ8ICBhAAGBYYHsICCxAAGIAEGIoFGJECwgIFEAAYgATCAgoQABiABBgUGIcCwgIIEC4YgAQY5QTCAgoQABiABBiKBRhDwgIEECEYFcICBRAhGJ8FwgIHECEYChigAZgDAIgGAZAGCJIHBTE1LjQwoAeU6AOyBwUxMS40MLgHoCzCBwY1LjQ5LjHIB1Q&sclient=gws-wiz-serp */
+
 .logo-image {
     width: 100%;
     height: auto;
+     mask-image: 
+    linear-gradient(to right, black 85%, transparent), 
+    linear-gradient(to left, black 85%, transparent),  
+    linear-gradient(to bottom, black 85%, transparent),
+    linear-gradient(to top, black 85%, transparent);   
+    mask-composite: intersect; 
 }
 
 .banner-text { /*right side*/
@@ -134,4 +142,14 @@ h1 {
     padding: 0.5rem;
     display: flex;
     flex-direction: column;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #8e3c10;
+    color: #fffaf0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
