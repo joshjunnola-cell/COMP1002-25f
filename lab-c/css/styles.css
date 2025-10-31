@@ -20,7 +20,7 @@ main {
 }
 /* Make the SECTION column a bit wider than the ASIDE column */
 main section {
-	width: 60%;
+	width: 50%;
 }
 main aside {
 	width: 40%;
