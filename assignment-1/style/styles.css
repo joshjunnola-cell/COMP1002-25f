@@ -52,10 +52,10 @@ h1 {
 
 .banner-order {
     text-decoration: none;
-    color: #000000;
+    color: #97360c;
     padding: 0.5rem 1rem;
     font-weight: bold;
-
+	text-shadow: 2.25px 2.25px 2.25px rgb(44, 37, 37); /* DROP SHADOW EFFECT */
 }
 
 .banner {  /*banner index.html section*/
@@ -64,6 +64,10 @@ h1 {
     justify-content: space-between;
     background: linear-gradient(to bottom, #f57c00, #fbc02d);
     padding: 4rem 2rem;
+}
+
+.banner h1 {
+    text-shadow: 2.25px 2.25px 2.25px rgb(0, 0, 0);
 }
 
 .banner-logo { /*left side*/
@@ -108,16 +112,15 @@ h1 {
     position: relative;
 }
 
-.order-button {
+.order-button {                                        /* ********order now button on HOMEPAGE***** */
     background-color: #965811;
     color: #fffaf0;
     padding: 1rem 1.5rem;
-    border-radius: 4px;
     font-weight: bold;
-    font-size: 16px;
     border: 2px solid #000000;
     display:flex;
     justify-content: center;
+    max-width: 400px;
     transition: background-color 0.3s ease;
 }
 
@@ -133,6 +136,11 @@ h1 {
     display: flex;
     width: 100%;
     margin-top: 1rem;
+}
+
+.split-section h2 {
+    text-shadow: 2px 2px 2px rgb(100, 83, 83); /* DROP SHADOW EFFECT */
+    margin-bottom: 0.5rem;
 }
 
 .split-section fieldset {
