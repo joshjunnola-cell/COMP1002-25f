@@ -20,7 +20,10 @@ h1 {
     align-items: center;
     background-color: #8e3c10;
     padding: 1rem 2rem;
-    mask: linear-gradient(black 90%, transparent);
+    mask-image:
+    linear-gradient(to bottom, black 90%, transparent),
+    linear-gradient(to top,black 90%, transparent);
+    mask-composite: intersect;
 }
 
 .logo {
@@ -44,7 +47,7 @@ h1 {
 }
 
 .links a:hover {
-    color: #ffcc99;
+    color: #ffbe7d;
 }
 
 
@@ -116,16 +119,18 @@ h1 {
     margin-top: 1rem;
 }
 
+.split-section fieldset {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 2px solid #000000;
+    border-radius: 4px; 
+    margin-right: 0.25rem;
+    margin-left: 0.25rem;
+}
+
 .left-column {
     width: 50%;
     text-align: center;
-}
-
-.left-column fieldset {
-    border: 2px solid #000000;
-    margin-left: 0.25rem;
-    margin-right: 0.25rem;
-    border-radius: 4px; 
 }
 
 .left-column img{
@@ -133,8 +138,7 @@ h1 {
     width: 65%;
     display: block;
     margin-top: 0.5rem;
-    margin-left: 0.5rem;
-    border: 2px solid #000000;
+    margin-left: 0.5rem;  
 }
 
 p.marg {
@@ -148,24 +152,19 @@ p.marg {
     text-align: center;
 }
 
-.right-column fieldset { 
-    margin-top: 0.68rem;
-    border: 2px solid #000000;
-    margin-right: 0.25rem;
-    margin-left: 0.25rem;
-    border-radius: 4px; 
-}
-
-.right-column ul {
-    list-style: none;
-    display: inline-block;
-}
-
 .right-column fieldset.toppings {
     padding: 0.5rem;
+    list-style: none;
     display: flex;
     flex-direction: column;
+    justify-content: center;  
 }
+
+.split-section ul {
+    list-style: none;
+    padding: 0;
+    justify-content: center;    
+}  
 
 footer {
     text-align: center;
