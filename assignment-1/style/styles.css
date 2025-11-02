@@ -133,6 +133,8 @@ h1 {
     text-decoration: none;
 }
 
+
+
 /* information on how to "split screen" a section learned from google https://www.google.com/search?q=how+to+split+a+part+of+a+website+into+two+sections&oq=how+to+split+a+part+of+a+website+into+two+sections&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCTEyMjc5ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8 */
 
 .split-section{
@@ -237,7 +239,31 @@ fieldset.checkSub {
     border: 2px solid #000000;
     max-width: 400px;
     transition: background-color 0.3s ease;
-    display:flex;
+    margin-top: 1rem;
+ 
+}
+
+.reset-button{
+    background-color: #965811;
+    color: #fffaf0;
+    padding: 1rem 1.5rem;
+    font-weight: bold;
+    border: 2px solid #000000;
+    max-width: 400px;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+
+}
+
+.submit-final:hover {
+    background-color: #bf6e1a;
+    color: #fffaf0;
+    text-decoration: none;
+}
+
+section.buttons {
+    display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
