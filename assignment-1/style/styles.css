@@ -214,17 +214,6 @@ fieldset.info {                                 /* fieldset for toppings and siz
     border: 2px solid #000000;
 }
 
- .checkSub button {                                         /* submit button */
-    background-color: #965811;
-    color: #fffaf0;
-    padding: 1rem 1.5rem;
-    font-weight: bold;
-    border: 2px solid #000000;
-    margin-top: 1rem;
-    transition: background-color 0.3s ease;
-    
-}
-
 p button:hover {
     background-color: #bf6e1a;
     color: #fffaf0;
@@ -237,4 +226,15 @@ fieldset.checkSub {
     justify-content: center;
     align-items: center;
     display: flex;
+}
+
+ .submit-final {                                         /* submit button */
+    background-color: #965811;
+    color: #fffaf0;
+    font-weight: bold;
+    border: 1.25px solid #000000;
+    margin-top: 1rem;
+    max-width: 300px;
+    transition: background-color 0.3s ease;
+    
 }
