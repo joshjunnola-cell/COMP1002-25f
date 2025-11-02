@@ -135,6 +135,7 @@ h1 {
 /* information on how to "split screen" a section learned from google https://www.google.com/search?q=how+to+split+a+part+of+a+website+into+two+sections&oq=how+to+split+a+part+of+a+website+into+two+sections&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCTEyMjc5ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8 */
 
 .split-section{
+    font-size: 115%;
     display: flex;
     width: 100%;
     margin-top: 1rem;
@@ -227,4 +228,14 @@ p button:hover {
     background-color: #bf6e1a;
     color: #fffaf0;
     text-decoration: none;
+}
+
+fieldset.info {                                 /* fieldset for toppings and size */
+    width: auto;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    border-radius: 2px;  
+    border: 2px solid #000000;
 }
