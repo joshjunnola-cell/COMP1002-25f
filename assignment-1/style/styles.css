@@ -9,8 +9,16 @@ html {
     font-family: 'Segoe UI', sans-serif;
 }
 
+main {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
 h1 {
     text-align: center;
+    text-shadow: 2.25px 2.25px 2.25px rgb(0, 0, 0);
+    color: #ca3d01;
+    flex: 1;
 }
 
 .main {                                                /*********     navigation bar    ********/
@@ -25,7 +33,7 @@ h1 {
     linear-gradient(to bottom, black 90%, transparent),
     linear-gradient(to top,black 90%, transparent);
     mask-composite: intersect;
-        text-shadow: 2.25px 2.25px 2.25px rgb(0, 0, 0);
+    text-shadow: 2.25px 2.25px 2.25px rgb(0, 0, 0);
 }
 
 .logo {
@@ -54,28 +62,18 @@ h1 {
 
 .banner-order {                                             /*********  DELICIOUS PIZZA  *********/
     text-decoration: none;
-    color: #c23b01;
     padding: 0.5rem 1rem;
     font-weight: bold;
     font-size: 20px;
 	text-shadow: 2.25px 2.25px 2.25px rgb(44, 37, 37); /* DROP SHADOW EFFECT */
 }
 
-.banner {  /*banner index.html section*/
+.banner {                                                       /*banner index.html section*/
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: linear-gradient(to bottom, #f57c00, #fbc02d);
     padding: 4rem 2rem;
-}
-
-.banner h1 {
-    text-shadow: 2.25px 2.25px 2.25px rgb(0, 0, 0);
-}
-
-.banner-logo { /*left side*/
-    flex: 1;
-    text-align: center;
 }
 
 /* Image masking info from google https://www.google.com/search?q=css+fade+multiple+image+edges+with+linear+gradient&sca_esv=b8281854a4bc4e84&sxsrf=AE3TifMxLzj0ZIql_K0rroMI2AOSnZa0Cw%3A1761863096656&ei=uOUDaZjqJ-i40PEPu6ag8QQ&oq=css+fade+multiple+image+edges+with+lin&gs_lp=Egxnd3Mtd2l6LXNlcnAiJmNzcyBmYWRlIG11bHRpcGxlIGltYWdlIGVkZ2VzIHdpdGggbGluKgIIADIFECEYoAEyBRAhGKABMgUQIRigATIFECEYoAEyBRAhGKABSJTsAVC5CljA4AFwBHgBkAEAmAGUAaABtDqqAQUzMC40MrgBA8gBAPgBAZgCN6ACqCzCAgoQABhHGNYEGLADwgIEECMYJ8ICCBAAGIAEGKIEwgIFEAAY7wXCAgcQIxiwAhgnwgIKECMYgAQYigUYJ8ICBhAAGBYYHsICCxAAGIAEGIoFGJECwgIFEAAYgATCAgoQABiABBgUGIcCwgIIEC4YgAQY5QTCAgoQABiABBiKBRhDwgIEECEYFcICBRAhGJ8FwgIHECEYChigAZgDAIgGAZAGCJIHBTE1LjQwoAeU6AOyBwUxMS40MLgHoCzCBwY1LjQ5LjHIB1Q&sclient=gws-wiz-serp */
@@ -91,14 +89,13 @@ h1 {
     mask-composite: intersect; 
 }
 
-.banner-text { /*right side*/
+.banner-text {                                               /*right side*/
     flex: 1;
     padding-left: 2rem;
 }
 
 .banner-text h1 {
     font-size: 3rem;
-    color: #5c1a0a;
     margin-bottom: 1rem;
 }
 
@@ -145,7 +142,7 @@ h1 {
 }
 
 .split-section h2 {
-    text-shadow: 2px 2px 2px rgb(100, 83, 83); /* DROP SHADOW EFFECT */
+    text-shadow: 2px 2px 2px rgb(100, 83, 83);                /* DROP SHADOW EFFECT */
     margin-bottom: 0.5rem;
 }
 
@@ -197,7 +194,7 @@ p.marg {
     justify-content: center;    
 }  
 
-footer {                                   /* footer section */
+footer {                                                       /* footer section */
     text-align: center;
     padding: 1rem;
     margin-top: 0.5rem;
@@ -208,10 +205,9 @@ footer {                                   /* footer section */
     width: 100%;
 }
 
-fieldset.info {                                 /* fieldset for toppings and size */
+fieldset.info {                                           /* fieldset for toppings and size */
     width: auto;
     padding: 0.5rem;
-    font-size: 1rem;
     margin-top: 0.5rem;
     border-radius: 2px;  
     border: 2px solid #000000;
@@ -230,7 +226,7 @@ fieldset.checkSub {
     align-items: center;
     display: flex;
 }
-                                                            /* submit button */
+                                                                  /* submit button */
  .submitfinal button {                                         
     background-color: #965811;
     color: #fffaf0;
@@ -271,4 +267,14 @@ section.buttons {
     flex-direction: column;
     margin-top: 1rem;
     gap: 1rem;
+}
+
+section.pizzaCrust {
+    border: 2px solid #000000;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+    padding-bottom: .5rem;
+
 }
