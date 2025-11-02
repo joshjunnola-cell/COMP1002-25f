@@ -201,11 +201,18 @@ footer {                                   /* footer section */
     width: 100%;
 }
 
-button {
+fieldset.checkSub {                          /* submit button fieldset */
+    border: none;
+    margin-top: 1rem;
+    padding: 0;
+    display: flex;
+    justify-content: center;    
+
+}
+
+p button {                                         /* submit button */
     background-color: #965811;
     color: #fffaf0;
-    display:flex;
-    justify-content: center;
     padding: 1rem 1.5rem;
     border-radius: 4px;
     font-weight: bold;
