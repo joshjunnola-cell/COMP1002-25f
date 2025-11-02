@@ -114,14 +114,15 @@ h1 {
     position: relative;
 }
 
-.order-button {                                        /* ********order now button on HOMEPAGE***** */
+.banner-text a {                                        /* ********order now button on HOMEPAGE***** */
+    display:flex;
+    justify-content: center;
+    align-items: center;
     background-color: #965811;
     color: #fffaf0;
     padding: 1rem 1.5rem;
     font-weight: bold;
     border: 2px solid #000000;
-    display:flex;
-    justify-content: center;
     max-width: 400px;
     transition: background-color 0.3s ease;
 }
@@ -231,10 +232,12 @@ fieldset.checkSub {
  .submit-final {                                         /* submit button */
     background-color: #965811;
     color: #fffaf0;
+    padding: 1rem 1.5rem;
     font-weight: bold;
-    border: 1.25px solid #000000;
-    margin-top: 1rem;
-    max-width: 300px;
+    border: 2px solid #000000;
+    max-width: 400px;
     transition: background-color 0.3s ease;
-    
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
