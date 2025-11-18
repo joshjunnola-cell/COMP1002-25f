@@ -1,3 +1,10 @@
+body img{
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
 body{
-    background-image: url("./images/inception.png")
+    background-color:rgb(0, 0, 78)
 }
