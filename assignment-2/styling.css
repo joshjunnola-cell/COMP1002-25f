@@ -1,8 +1,8 @@
-body img{
-    align-content: center;
-    justify-content: center;
-    text-align: center;
-
+body {
+    background-image: url("images/inception.png");
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
 }
 
 body{
