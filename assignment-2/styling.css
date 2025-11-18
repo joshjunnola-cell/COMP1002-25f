@@ -2,9 +2,6 @@ body {
     background-image: url("images/inception.png");
     background-position: center;
     background-repeat: no-repeat; 
-    background-size: cover; 
-}
-
-body{
-    background-color:rgb(0, 0, 78)
+    height: 100rem;
+    background-size: 50%;
 }
