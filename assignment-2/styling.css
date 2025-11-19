@@ -52,4 +52,9 @@ header, main, footer {
     line-height: 1.5;                           
 }
 
-
+.release {
+    font-size: 1.1rem;
+    color: #423c3c;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
