@@ -23,7 +23,7 @@ header, main, footer {
     max-width: 800px;
 }
 
-.tagDream {                                 /*  Header  */
+.tagDream {                                           /*  Header  */
     font-family: sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
@@ -33,3 +33,12 @@ header, main, footer {
     text-transform: uppercase;
 }
 
+.title {                                             /* Title */
+    font-family: sans-serif;
+    font-size: 5.5rem;
+    font-weight: 700;
+    letter-spacing: 6px;
+    color: #e50914;
+    margin: 20px;
+    text-transform: uppercase;
+}
