@@ -7,13 +7,12 @@ html{
     background-color: #000;
 }
 .poster {                                       /* Poster background image and properties */
-    text-align: center;
     position: relative;
     width: min(720px, 90vw);
     aspect-ratio: 2/3;
     background-image: 
     /*Got this code from here https://www.google.com/search?q=CSS+background+image+fading+sides+to+black&sca_esv=fdcf620e6fdd6b42&sxsrf=AE3TifOZN9jBFGB5aGS-KYuGWY8yZKY-PA%3A1763428983860&ei=d8obadCZNL-w5NoPhorY8Ag&ved=0ahUKEwiQsa3xxPqQAxU_GFkFHQYFFo4Q4dUDCBE&uact=5&oq=CSS+background+image+fading+sides+to+black&gs_lp=Egxnd3Mtd2l6LXNlcnAiKkNTUyBiYWNrZ3JvdW5kIGltYWdlIGZhZGluZyBzaWRlcyB0byBibGFjazIFECEYoAEyBRAhGKABSKziAlCYGFjZ4AJwGHgBkAEAmAGOAqABxi-qAQc0My4yMC4xuAEDyAEA-AEBmAJYoAK2MagCEMICChAAGEcY1gQYsAPCAgQQIxgnwgIKECMYgAQYigUYJ8ICCxAAGIAEGIoFGJECwgIKEAAYgAQYigUYQ8ICEBAAGIAEGIoFGEMYsQMYgwHCAgsQABiABBixAxiDAcICDRAAGIAEGIoFGEMYsQPCAggQABiABBixA8ICBRAAGIAEwgIKEAAYgAQYFBiHAsICCxAuGIAEGMcBGK8BwgIHEAAYgAQYCsICBhAAGBYYHsICCRAAGIAEGAoYC8ICBxAjGOoCGCfCAg0QIxjwBRjJAhjqAhgnwgINECMYyQIY8AUY6gIYJ8ICFxAAGIAEGIoFGJECGOcGGOoCGLQC2AEBwgIWEC4YgAQYigUYQxixAxiDARjHARjRA8ICBRAAGO8FwgIIEAAYgAQYogTCAggQABiJBRiiBMICBBAhGBXCAgcQIRgKGKABmAMEiAYBkAYIugYGCAEQARgBkgcHNjYuMjAuMqAH3eQCsgcHNDIuMjAuMrgH9zDCBwcxMS43NS4yyAeuAQ&sclient=gws-wiz-serp*/
-    radial-gradient(800px, transparent, black), url("images/inception.png");
+    radial-gradient(950px, transparent, black), url("images/inception.png");
     background-position: center;
     background-repeat: no-repeat; 
     background-size: cover;
@@ -23,13 +22,20 @@ html{
     padding: 0;
 }
 
+.tagDream, title, .subH, .cast, .release, footer {
+    position: absolute;
+    line-height: 1;
+    text-align: center;
+}
+
 .tagDream {                                           /*  Header  */
+    top: 4%;
     font-family: sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
     color: #e0e0e0;
-    margin: 4%;
+    margin: 10px;
 }
 
 .title {                                             /* Title */
@@ -38,10 +44,11 @@ html{
     font-weight: 700;
     letter-spacing: 6px;
     color: #e50914;
-    margin: 20px;
+    text-align: center;
 }
 
 .subH {                                             /* Subheading */
+    top: 50%;
     font-size: 1.2rem;
     letter-spacing: 2px;
     margin: 20px;
@@ -60,3 +67,4 @@ html{
     font-weight: 500;
     letter-spacing: 1px;
 }
+
