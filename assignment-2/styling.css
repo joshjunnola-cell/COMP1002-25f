@@ -1,12 +1,9 @@
-*html {
-    max-width: 60%;
-}
 
-body {
+
+body {                          /* body and background image */
     background-image: 
     /*Got this code from here https://www.google.com/search?q=CSS+background+image+fading+sides+to+black&sca_esv=fdcf620e6fdd6b42&sxsrf=AE3TifOZN9jBFGB5aGS-KYuGWY8yZKY-PA%3A1763428983860&ei=d8obadCZNL-w5NoPhorY8Ag&ved=0ahUKEwiQsa3xxPqQAxU_GFkFHQYFFo4Q4dUDCBE&uact=5&oq=CSS+background+image+fading+sides+to+black&gs_lp=Egxnd3Mtd2l6LXNlcnAiKkNTUyBiYWNrZ3JvdW5kIGltYWdlIGZhZGluZyBzaWRlcyB0byBibGFjazIFECEYoAEyBRAhGKABSKziAlCYGFjZ4AJwGHgBkAEAmAGOAqABxi-qAQc0My4yMC4xuAEDyAEA-AEBmAJYoAK2MagCEMICChAAGEcY1gQYsAPCAgQQIxgnwgIKECMYgAQYigUYJ8ICCxAAGIAEGIoFGJECwgIKEAAYgAQYigUYQ8ICEBAAGIAEGIoFGEMYsQMYgwHCAgsQABiABBixAxiDAcICDRAAGIAEGIoFGEMYsQPCAggQABiABBixA8ICBRAAGIAEwgIKEAAYgAQYFBiHAsICCxAuGIAEGMcBGK8BwgIHEAAYgAQYCsICBhAAGBYYHsICCRAAGIAEGAoYC8ICBxAjGOoCGCfCAg0QIxjwBRjJAhjqAhgnwgINECMYyQIY8AUY6gIYJ8ICFxAAGIAEGIoFGJECGOcGGOoCGLQC2AEBwgIWEC4YgAQYigUYQxixAxiDARjHARjRA8ICBRAAGO8FwgIIEAAYgAQYogTCAggQABiJBRiiBMICBBAhGBXCAgcQIRgKGKABmAMEiAYBkAYIugYGCAEQARgBkgcHNjYuMjAuMqAH3eQCsgcHNDIuMjAuMrgH9zDCBwcxMS43NS4yyAeuAQ&sclient=gws-wiz-serp*/
-    linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(1,0,0,0) 20%, rgba(0,0,0,0) 80%, rgba(0,0,0,1) 100%),
-    url("images/inception.png");
+    radial-gradient(900px, transparent, black), url("images/inception.png");
     height: 125vh;
     background-position: center;
     background-repeat: no-repeat; 
@@ -15,14 +12,24 @@ body {
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     padding: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
     text-align: center;
 
 }
 
-header {
+header, main, footer {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.tagDream {                                 /*  Header  */
+    font-family: sans-serif;
     font-size: 1.5rem;
+    font-weight: 700;
     letter-spacing: 4px;
     color: #e0e0e0;
     margin-bottom: 60px;
+    text-transform: uppercase;
 }
 
