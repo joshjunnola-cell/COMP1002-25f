@@ -28,7 +28,6 @@ header, main, footer {
     letter-spacing: 4px;
     color: #e0e0e0;
     margin-bottom: 60px;
-    text-transform: uppercase;
 }
 
 .title {                                             /* Title */
@@ -38,7 +37,6 @@ header, main, footer {
     letter-spacing: 6px;
     color: #e50914;
     margin: 20px;
-    text-transform: uppercase;
 }
 
 .subH {                                             /* Subheading */
@@ -46,3 +44,12 @@ header, main, footer {
     letter-spacing: 2px;
     margin: 20px;
 }
+
+.cast {                                             /* Paragraph in main consisting of cast */
+    font-size: 1rem;
+    margin: 30px 0;
+    letter-spacing: 2.5px;    
+    line-height: 1.5;                           
+}
+
+
