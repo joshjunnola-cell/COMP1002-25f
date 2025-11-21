@@ -21,7 +21,7 @@ html{
     padding: 0;
 }
 
-.tagDream, .title, .subH, .cast, .cast-list, .starring, .release, footer {
+.tagDream, .title, .subH, .cast, .cast-list, .starring, .release, .inceptionMovie {
     position: absolute;
     line-height: 1;
     text-align: center;
@@ -107,7 +107,7 @@ html{
     letter-spacing: 1px;
 }
 
-footer{
+.inceptionMovie{
     top: 93%;
     left: 15%;
     font-size: 1.1rem;
