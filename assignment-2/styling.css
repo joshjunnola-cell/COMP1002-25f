@@ -66,8 +66,8 @@ html{
 
 .subH {                                   /* Subheading director of dark knight */
     top: 80.1%;
-    left: 8.5%;
-    font-size: 1.2rem;
+    left: 8.4%;
+    font-size: 1.21rem;
     letter-spacing: 3.4px;
     margin: 20px;
     font-weight: 650;
@@ -79,7 +79,7 @@ html{
 }
 
 .cast {                                 /* Child of cast-list */
-    gap: 17.4px;
+    gap: 17px;
     margin-top: 40px; 
     display: flex;
     top: 815px;
@@ -96,6 +96,14 @@ html{
     font-weight: 600;
     white-space: nowrap;
     text-shadow: 3px 3px 3px rgb(44, 37, 37); 
+}
+
+.and {
+    font-size: 0.3em;
+    letter-spacing: 0em;
+    margin-top: 7px;
+    margin-left: -10px;
+    margin-right: -15px;
 }
 
 .member {                               /* Cast names */
@@ -140,7 +148,7 @@ html{
 }
 
 nav {                                   /* Nav section */
-    left: 255px;
+    left: 260px;
     box-sizing: inherit;
 }
 
@@ -186,9 +194,9 @@ nav a:link {
     background-color: white;
 }
 
-/* nav a:visited {
-    color: lightgray;
-} */
+nav a:visited {
+    color: rgb(160, 160, 160);
+}
 
 nav a:hover {
     background-color: rgb(255, 42, 42);
