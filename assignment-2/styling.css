@@ -1,14 +1,15 @@
-html{
+html {
     min-height: 100vh;
     padding: 80px 80px;
     display: flex;
     font-family: "Montserrat";
-    align-items:center;
+    align-items: center;
     justify-content: center;
     background-color: #101010;
 }
 
-.backingImg{            /* background sit inside another https://www.google.com/search?q=html+make+a+background+image+sit+in+a+background+image&sca_esv=3c659fc7041cb947&sxsrf=AE3TifPN6kV6XY74DmH5keYh8SduWANyXA%3A1763842243328&ei=wxgiaezvE9TdptQPk-2E8Qo&oq=html+make+a+background+image+sit+in+a+b&gs_lp=Egxnd3Mtd2l6LXNlcnAiJ2h0bWwgbWFrZSBhIGJhY2tncm91bmQgaW1hZ2Ugc2l0IGluIGEgYioCCAAyBRAhGKABMgUQIRigATIFECEYoAEyBRAhGKABMgQQIRgVSPd_UMVZWOx3cAJ4AZABAJgBdKAB8RSqAQQzMC4zuAEDyAEA-AEBmAIOoAKeCMICChAAGEcY1gQYsAPCAgQQIxgnwgIIEAAYiQUYogTCAggQABiABBiiBMICBhAAGBYYHsICCxAAGIAEGIoFGIYDwgIFECEYnwWYAwCIBgGQBgiSBwQxMi4yoAfJlgGyBwQxMC4yuAeWCMIHBjIuMTEuMcgHFw&sclient=gws-wiz-serp */
+.backingImg {
+    /* background sit inside another https://www.google.com/search?q=html+make+a+background+image+sit+in+a+background+image&sca_esv=3c659fc7041cb947&sxsrf=AE3TifPN6kV6XY74DmH5keYh8SduWANyXA%3A1763842243328&ei=wxgiaezvE9TdptQPk-2E8Qo&oq=html+make+a+background+image+sit+in+a+b&gs_lp=Egxnd3Mtd2l6LXNlcnAiJ2h0bWwgbWFrZSBhIGJhY2tncm91bmQgaW1hZ2Ugc2l0IGluIGEgYioCCAAyBRAhGKABMgUQIRigATIFECEYoAEyBRAhGKABMgQQIRgVSPd_UMVZWOx3cAJ4AZABAJgBdKAB8RSqAQQzMC4zuAEDyAEA-AEBmAIOoAKeCMICChAAGEcY1gQYsAPCAgQQIxgnwgIIEAAYiQUYogTCAggQABiABBiiBMICBhAAGBYYHsICCxAAGIAEGIoFGIYDwgIFECEYnwWYAwCIBgGQBgiSBwQxMi4yoAfJlgGyBwQxMC4yuAeWCMIHBjIuMTEuMcgHFw&sclient=gws-wiz-serp */
     display: flex;
     width: calc(min(720px, 90vw) + 142px);
     aspect-ratio: 2/3;
@@ -16,63 +17,76 @@ html{
     background-position: center;
     background-size: cover;
     align-items: center;
-    justify-content: center; 
-         mask-image: 
-    linear-gradient(to right, black 90%, transparent), 
-    linear-gradient(to left, black 90%, transparent),  
-    linear-gradient(to bottom, black 90%, transparent),
-    linear-gradient(to top, black 90%, transparent);   
-    mask-composite: intersect; 
+    justify-content: center;
+    mask-image:
+        linear-gradient(to right, black 90%, transparent),
+        linear-gradient(to left, black 90%, transparent),
+        linear-gradient(to bottom, black 90%, transparent),
+        linear-gradient(to top, black 90%, transparent);
+    mask-composite: intersect;
 }
 
-.poster {                                       /* Poster background image and properties */
+.poster {
+    /* Poster background image and properties */
     position: relative;
     width: min(720px, 90vw);
     aspect-ratio: 2/3;
     background-image: url("images/inception.png");
     background-position: center;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
     display: block;
     padding: 0;
 }
 
-.tagDream, .title, .subH, .cast, .cast-list, .starring, footer, .release, .imax, nav {
+.tagDream,
+.title,
+.subH,
+.cast,
+.cast-list,
+.starring,
+footer,
+.release,
+.imax,
+nav {
     position: absolute;
     line-height: 1;
     text-align: center;
 }
 
-aside{
+aside {
+    /* watermarks along bottom */
     position: relative;
 }
 
-aside img, aside p {
+aside img,
+aside p {
     position: absolute;
 }
 
 .pg13 {
-    top: 950px;
-    left: 60px;
+    top: 949px;
+    left: 64px;
     width: 120px;
 }
 
 .legendary {
     top: 965px;
-    left: 385px;
+    left: 394px;
     width: 130px;
 }
 
 .syncopy {
-    top: 970px;
+    top: 967px;
     left: 570px;
     width: 80px;
 }
 
-.inceptionMovie {                       /* inception movie marker bottom */
-    top: 995px;
-    left: 32.5%;  
+.inceptionMovie {
+    /* inception movie marker bottom */
+    top: 990px;
+    left: 31.5%;
     font-size: 0.7em;
     color: #726969;
     font-weight: 500;
@@ -80,9 +94,10 @@ aside img, aside p {
     text-align: center;
 }
 
-.tagDream {                                  /*  Header 2 tagline Dream */
-    top: 5.5%;
-    right: 25%;
+.tagDream {
+    /*  Header 2 tagline Dream */
+    top: 6%;
+    right: 23.2%;
     font-size: 1.5rem;
     font-weight: 600;
     letter-spacing: 5px;
@@ -90,7 +105,8 @@ aside img, aside p {
     margin: 10px;
 }
 
-.title {                                    /* Title */
+.title {
+    /* Title */
     top: 76.5%;
     left: 10%;
     font-weight: bold;
@@ -100,8 +116,9 @@ aside img, aside p {
     text-align: center;
 }
 
-.subH {                                   /* Subheading director of dark knight */
-    top: 80.1%;
+.subH {
+    /* Subheading director of dark knight */
+    top: 78.2%;
     left: 8.4%;
     font-size: 1.21rem;
     letter-spacing: 3.4px;
@@ -109,20 +126,23 @@ aside img, aside p {
     font-weight: 650;
 }
 
-.cast-list {                            /* Cast list in section */
+.cast-list {
+    /* Cast list in section */
     font-size: 0.95rem;
-    color: #ffffff;                 
+    color: #ffffff;
 }
 
-.cast {                                 /* Child of cast-list */
+.cast {
+    /* Child of cast-list */
     gap: 17px;
-    margin-top: 40px; 
+    margin-top: 40px;
     display: flex;
     top: 800px;
     left: 80px;
 }
 
-.starring {                             /* Leondaro Dicaprio */
+.starring {
+    /* Leondaro Dicaprio */
     top: 820px;
     left: 80px;
     font-size: 1em;
@@ -131,7 +151,7 @@ aside img, aside p {
     color: white;
     font-weight: 600;
     white-space: nowrap;
-    text-shadow: 3px 3px 3px rgb(44, 37, 37); 
+    text-shadow: 3px 3px 3px rgb(44, 37, 37);
 }
 
 .and {
@@ -142,7 +162,8 @@ aside img, aside p {
     margin-right: -15px;
 }
 
-.member {                               /* Cast names */
+.member {
+    /* Cast names */
     flex-direction: column;
     font-weight: bold;
     letter-spacing: 0;
@@ -151,7 +172,7 @@ aside img, aside p {
 
 .firstName {
     color: rgb(254, 41, 41);
-    font-size: 0.48em;  
+    font-size: 0.48em;
 }
 
 .lastName {
@@ -159,8 +180,9 @@ aside img, aside p {
     font-size: 0.7em;
 }
 
-.release {                              /* experience it july 16 */
-    top: 89.5%;
+.release {
+    /* experience it july 16 */
+    top: 89.2%;
     left: 13.4%;
     font-size: 1.1rem;
     color: #8a8282;
@@ -169,13 +191,14 @@ aside img, aside p {
 }
 
 .imax {
-    top: 93.2%;
+    top: 92.8%;
     left: 75.5%;
     font-size: 3px;
 }
 
-nav {                                   /* Nav section */
-    left: 260px;
+nav {
+    /* Nav section */
+    left: 265px;
     box-sizing: inherit;
 }
 
@@ -230,7 +253,3 @@ nav a:hover {
     border: 2px solid black;
     color: white;
 }
-
-/* nav li ul {
-
-} */
