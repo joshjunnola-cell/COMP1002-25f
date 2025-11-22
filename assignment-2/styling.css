@@ -99,7 +99,7 @@ html{
     letter-spacing: 1px;
 }
 
-.release {
+.release {                              /* experience it july 16 */
     top: 89.5%;
     left: 20%;
     font-size: 1.1rem;
@@ -108,16 +108,16 @@ html{
     letter-spacing: 1px;
 }
 
-.inceptionMovie {
+.inceptionMovie {                       /* inception movie marker bottom */
     top: 92%;
-    left: 15%;
+    left: 15%;  
     font-size: 1.1rem;
     color: #6b6262;
     font-weight: 500;
     letter-spacing: 1px;
 }
 
-nav {
+nav {                                   /* Nav section */
     top: 1100px;
     left: 50px;
 }
