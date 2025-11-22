@@ -8,6 +8,23 @@ html{
     background-color: #101010;
 }
 
+.backingImg{            /* background sit inside another https://www.google.com/search?q=html+make+a+background+image+sit+in+a+background+image&sca_esv=3c659fc7041cb947&sxsrf=AE3TifPN6kV6XY74DmH5keYh8SduWANyXA%3A1763842243328&ei=wxgiaezvE9TdptQPk-2E8Qo&oq=html+make+a+background+image+sit+in+a+b&gs_lp=Egxnd3Mtd2l6LXNlcnAiJ2h0bWwgbWFrZSBhIGJhY2tncm91bmQgaW1hZ2Ugc2l0IGluIGEgYioCCAAyBRAhGKABMgUQIRigATIFECEYoAEyBRAhGKABMgQQIRgVSPd_UMVZWOx3cAJ4AZABAJgBdKAB8RSqAQQzMC4zuAEDyAEA-AEBmAIOoAKeCMICChAAGEcY1gQYsAPCAgQQIxgnwgIIEAAYiQUYogTCAggQABiABBiiBMICBhAAGBYYHsICCxAAGIAEGIoFGIYDwgIFECEYnwWYAwCIBgGQBgiSBwQxMi4yoAfJlgGyBwQxMC4yuAeWCMIHBjIuMTEuMcgHFw&sclient=gws-wiz-serp */
+    display: flex;
+    width: calc(min(720px, 90vw) + 142px);
+    aspect-ratio: 2/3;
+    background-image: url("images/Extendallfourside.png");
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center; 
+         mask-image: 
+    linear-gradient(to right, black 90%, transparent), 
+    linear-gradient(to left, black 90%, transparent),  
+    linear-gradient(to bottom, black 90%, transparent),
+    linear-gradient(to top, black 90%, transparent);   
+    mask-composite: intersect; 
+}
+
 .poster {                                       /* Poster background image and properties */
     position: relative;
     width: min(720px, 90vw);
