@@ -147,6 +147,8 @@ html{
     font-size: 3px;
 }
 
+aside 
+
 nav {                                   /* Nav section */
     left: 260px;
     box-sizing: inherit;
