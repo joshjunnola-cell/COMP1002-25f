@@ -117,7 +117,8 @@ html{
 }
 
 .imax {
-    top: 92%;
+    top: 93.2%;
+    left: 75.5%;
     font-size: 3.2px;
 }
 
@@ -127,24 +128,52 @@ nav {                                   /* Nav section */
 }
 
 nav ul {
-    display: flex;
     list-style-type: none;
     padding: 0;
+    white-space: nowrap;
+    gap: 60px;
+    height: 25px;
     background-color: white;
-    border: 5px solid black;
+    border: 5px solid black;    
 }
 
 nav li {
     display: inline-block;
     position: relative;
+    padding: 5px;
 }
 
-nav ul li ul li, nav ul li a {
+nav li ul {
+    position: absolute;
+    left: 900px;
+}
+
+nav li li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+}
+
+nav li:focus-within ul {
+    left: auto;
+}
+
+nav a {
     text-decoration: none;
     color: black;
     font-weight: bold;
     padding: 0.25em;
 }
+
+nav a:link {
+    background-color: white;
+}
+
+/* nav a:visited {
+    color: lightgray;
+} */
 
 /* nav li ul {
 
