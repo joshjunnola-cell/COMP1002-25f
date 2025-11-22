@@ -21,7 +21,7 @@ html{
     padding: 0;
 }
 
-.tagDream, .title, .subH, .cast, .cast-list, .starring, .release, .inceptionMovie {
+.tagDream, .title, .subH, .cast, .cast-list, .starring, footer, .release, .inceptionMovie, nav {
     position: absolute;
     line-height: 1;
     text-align: center;
@@ -39,9 +39,10 @@ html{
 }
 
 .title {                                    /* Title */
-    top: 77%;
+    top: 76.5%;
     left: 10%;
     font-family: sans-serif;
+    font-weight: bold;
     font-size: 6.2rem;
     font-weight: 700;
     letter-spacing: 6px;
@@ -50,11 +51,12 @@ html{
 }
 
 .subH {                                   /* Subheading */
-    top: 80%;
+    top: 79.6%;
     left: 15%;
     font-size: 1.2rem;
-    letter-spacing: 2px;
+    letter-spacing: 2.5px;
     margin: 20px;
+    font-weight: 700;
 }
 
 .cast-list {                            /* Cast list in section */
@@ -66,16 +68,16 @@ html{
     gap: 15px;
     margin-top: 40px; 
     display: flex;
-    top: 820px;
+    top: 812px;
     left: 50px;
 }
 
 .starring {                             /* Leondaro Dicaprio */
-    top: 840px;
-    left: 100px;
+    top: 830px;
+    left: 75px;
     font-size: 1em;
     font-weight: bold;
-    letter-spacing: 1.5em;
+    letter-spacing: 1.6em;
     color: white;
     font-weight: 600;
     white-space: nowrap;
@@ -84,7 +86,7 @@ html{
 .member {                               /* Cast names */
     flex-direction: column;
     font-weight: bold;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     white-space: nowrap;
 }
 
@@ -99,7 +101,7 @@ html{
 }
 
 .release {
-    top: 90%;
+    top: 89%;
     left: 20%;
     font-size: 1.1rem;
     color: #8a8282;
@@ -107,11 +109,40 @@ html{
     letter-spacing: 1px;
 }
 
-.inceptionMovie{
-    top: 93%;
+.inceptionMovie {
+    top: 92%;
     left: 15%;
     font-size: 1.1rem;
     color: #6b6262;
     font-weight: 500;
     letter-spacing: 1px;
 }
+
+nav {
+    top: 1100px;
+    left: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    background-color: white;
+    border: 5px solid black;
+}
+
+nav li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li ul li, nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 0.25em;
+}
+
+/* nav li ul {
+
+} */
