@@ -140,8 +140,7 @@ html{
 }
 
 nav {                                   /* Nav section */
-    top: 1100px;
-    left: 150px;
+    left: 255px;
     box-sizing: inherit;
 }
 
@@ -161,7 +160,7 @@ nav li {
 
 nav li ul {
     position: absolute;
-    left: 900px;
+    left: -9999px;
 }
 
 nav li li {
