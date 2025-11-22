@@ -21,7 +21,7 @@ html{
     padding: 0;
 }
 
-.tagDream, .title, .subH, .cast, .cast-list, .starring, footer, .release, .inceptionMovie, nav {
+.tagDream, .title, .subH, .cast, .cast-list, .starring, footer, .release, .inceptionMovie, .imax, nav {
     position: absolute;
     line-height: 1;
     text-align: center;
@@ -100,11 +100,11 @@ html{
 
 .release {                              /* experience it july 16 */
     top: 89.5%;
-    left: 14%;
+    left: 13.4%;
     font-size: 1.1rem;
     color: #8a8282;
     font-weight: 500;
-    letter-spacing: 1px;
+    letter-spacing: 0.6px;
 }
 
 .inceptionMovie {                       /* inception movie marker bottom */
@@ -114,6 +114,11 @@ html{
     color: #6b6262;
     font-weight: 500;
     letter-spacing: 1px;
+}
+
+.imax {
+    top: 92%;
+    font-size: 3.2px;
 }
 
 nav {                                   /* Nav section */
