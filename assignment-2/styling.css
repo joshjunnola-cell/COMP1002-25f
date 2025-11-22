@@ -38,9 +38,45 @@ html{
     padding: 0;
 }
 
-.tagDream, .title, .subH, .cast, .cast-list, .starring, footer, .release, .inceptionMovie, .imax, nav {
+.tagDream, .title, .subH, .cast, .cast-list, .starring, footer, .release, .imax, nav {
     position: absolute;
     line-height: 1;
+    text-align: center;
+}
+
+aside{
+    position: relative;
+}
+
+aside img, aside p {
+    position: absolute;
+}
+
+.pg13 {
+    top: 970px;
+    left: 60px;
+    width: 120px;
+}
+
+.legendary {
+    top: 985px;
+    left: 385px;
+    width: 130px;
+}
+
+.syncopy {
+    top: 990px;
+    left: 570px;
+    width: 80px;
+}
+
+.inceptionMovie {                       /* inception movie marker bottom */
+    top: 1010px;
+    left: 30%;  
+    font-size: 0.7em;
+    color: #726969;
+    font-weight: 500;
+    letter-spacing: 1px;
     text-align: center;
 }
 
@@ -132,22 +168,11 @@ html{
     letter-spacing: 0.6px;
 }
 
-.inceptionMovie {                       /* inception movie marker bottom */
-    top: 93%;
-    left: 24.2%;  
-    font-size: 0.7em;
-    color: #726969;
-    font-weight: 500;
-    letter-spacing: 1px;
-}
-
 .imax {
     top: 93.2%;
     left: 75.5%;
     font-size: 3px;
 }
-
-aside 
 
 nav {                                   /* Nav section */
     left: 260px;
