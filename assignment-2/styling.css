@@ -111,7 +111,7 @@ html{
     top: 93%;
     left: 24.2%;  
     font-size: 0.7em;
-    color: #6b6262;
+    color: #726969;
     font-weight: 500;
     letter-spacing: 1px;
 }
@@ -119,28 +119,27 @@ html{
 .imax {
     top: 93.2%;
     left: 75.5%;
-    font-size: 3.2px;
+    font-size: 3px;
 }
 
 nav {                                   /* Nav section */
     top: 1100px;
-    left: 20px;
+    left: 150px;
+    box-sizing: inherit;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
     white-space: nowrap;
-    gap: 60px;
     height: 25px;
     background-color: white;
-    border: 5px solid black;    
+    border: 5px solid black;
 }
 
 nav li {
     display: inline-block;
     position: relative;
-    padding: 5px;
 }
 
 nav li ul {
@@ -174,6 +173,12 @@ nav a:link {
 /* nav a:visited {
     color: lightgray;
 } */
+
+nav a:hover {
+    background-color: rgb(255, 42, 42);
+    border: 2px solid black;
+    color: white;
+}
 
 /* nav li ul {
 
