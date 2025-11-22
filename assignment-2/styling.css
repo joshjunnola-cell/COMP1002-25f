@@ -53,26 +53,26 @@ aside img, aside p {
 }
 
 .pg13 {
-    top: 970px;
+    top: 950px;
     left: 60px;
     width: 120px;
 }
 
 .legendary {
-    top: 985px;
+    top: 965px;
     left: 385px;
     width: 130px;
 }
 
 .syncopy {
-    top: 990px;
+    top: 970px;
     left: 570px;
     width: 80px;
 }
 
 .inceptionMovie {                       /* inception movie marker bottom */
-    top: 1010px;
-    left: 30%;  
+    top: 995px;
+    left: 32.5%;  
     font-size: 0.7em;
     color: #726969;
     font-weight: 500;
@@ -118,12 +118,12 @@ aside img, aside p {
     gap: 17px;
     margin-top: 40px; 
     display: flex;
-    top: 815px;
+    top: 800px;
     left: 80px;
 }
 
 .starring {                             /* Leondaro Dicaprio */
-    top: 835px;
+    top: 820px;
     left: 80px;
     font-size: 1em;
     font-weight: 800;
