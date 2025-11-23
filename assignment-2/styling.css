@@ -230,6 +230,7 @@ nav li a {
     display: block;
 }
 
+nav li:hover ul,
 nav li:focus-within ul {
     left: auto;
 }
