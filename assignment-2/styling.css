@@ -13,7 +13,7 @@ html {
     display: flex;
     width: calc(min(720px, 90vw) + 142px);
     aspect-ratio: 2/3;
-    background-image: url("images/Extendallfourside.png");
+    background-image: url("images/Extendallfourside.png"); /* 25% increase on all sides image background used AI to achieve */
     background-position: center;
     background-size: cover;
     align-items: center;
