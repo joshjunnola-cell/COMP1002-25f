@@ -1,7 +1,7 @@
 // IMPORTANT: Before you start, be sure to customize all href="" values within the server include PHP files so your site navigation works
-
+document.addEventListener("DOMContentLoaded", function(){
 // STEP 1: Begin by adding a SCRIPT element to 'red/gallery.php' that refers to this EXTERNAL JavaScript File
-
+const gallery = document.querySelector("#red/gallery");
 // STEP 2a: Grab the UL for #blockGallery and assign it to the variable 'blockGallery' - but use document.getElementById this time
 
 // STEP 2b: Create an array called 'blockLinks' to contain all the A elements inside the above variable, 'blockGallery' - but use querySelectorAll instead of getElementsByTagName
@@ -27,3 +27,4 @@
 // STEP 3b: End the 'onclick' event anonymous function
 
 // STEP 2d: End the loop through the 'blockLinks' array
+});
