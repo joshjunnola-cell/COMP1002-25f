@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function(){
     // STEP 2b: Create an array called 'blockLinks' to contain all the A elements inside the above variable, 'blockGallery' - but use querySelectorAll instead of getElementsByTagName
     var blockLinks = blockGallery.querySelectorAll("a");
     // STEP 2c: Make a loop that iterates through each item in the 'blockLinks' array that you just created above
-    for (var i=0; i<blockLinks.length; i++){
+    for (var i = 0; i < blockLinks.length; i ++){
         // STEP 3a: For each one of the A elements inside the array 'blockLinks', attach an onclick attribute that calls an anonymous function
         blockLinks[i].onclick = function (){
             // STEP 4a: For the link that was clicked, capture the value of the href attribute as a variable called 'blockHref'
