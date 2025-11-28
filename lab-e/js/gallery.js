@@ -31,5 +31,5 @@ document.addEventListener("DOMContentLoaded", function(){
             // STEP 3b: End the 'onclick' event anonymous function
         };
         // STEP 2d: End the loop through the 'blockLinks' array
-    }    
+    };   
 });
