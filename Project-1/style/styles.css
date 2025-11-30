@@ -1,0 +1,35 @@
+html{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.saleSign{
+    position: relative;
+    background:url(../images/antique-brass-carbid.png), linear-gradient(165deg, #ca4b3d 45%, #e4c896 55%);
+    /* background-image: url(../images/antique-brass-carbid.png); used ai to remove background */
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1024px;
+    height: 1024px;
+    margin: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.sale, .discount, .percent {
+    position: absolute;
+    line-height: 1;
+    text-align: center;
+}
+
+.sale{
+    left: 38%;
+    top: 30px;
+    letter-spacing: 0;
+    font-size: 13em;
+    color: #fdf5e6;
+    text-shadow: -4px 8px 10px #a83a2e;
+    transform: scale(1.2,1);
+}
