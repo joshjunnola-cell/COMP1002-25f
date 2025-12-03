@@ -56,9 +56,9 @@ header nav > ul > li > a:has(+ ul a.current) {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    width: 70vw;
+    width: 60vw;
     height: 70vw;
-    max-width: 1024px;
+    max-width: 900px;
     max-height: 1024px;
     margin: auto;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -66,13 +66,12 @@ header nav > ul > li > a:has(+ ul a.current) {
 
 .lamp {
     position: absolute;
-    width: 75vw;
-    height: 75vw;
-    max-width: 1024px;
+    width: 70vw;
+    height: 70vw;
+    max-width: 900px;
     max-height: 1024px;
-    left: 20px;
-    top: 80px;
-   
+    top: 110px;
+    filter: drop-shadow(5px 8px 10px) /* how to add drop shadow to img https://www.google.com/search?q=css+add+drop+shadow+to+image&sca_esv=8dfe9edb86176f37&sxsrf=AE3TifNPwQfJAdEfio3-_1Q85cjm6rzKAw%3A1764787860861&ei=lIYwaZmvNMrmwN4PgquBiQQ&ved=0ahUKEwiZybOMi6KRAxVKM9AFHYJVIEEQ4dUDCBE&uact=5&oq=css+add+drop+shadow+to+image&gs_lp=Egxnd3Mtd2l6LXNlcnAiHGNzcyBhZGQgZHJvcCBzaGFkb3cgdG8gaW1hZ2UyBBAAGB4yCxAAGIAEGIoFGIYDMggQABiJBRiiBDIFEAAY7wUyBRAAGO8FSOwPUIAKWOcNcAJ4AZABAJgBkgGgAekDqgEDNC4xuAEDyAEA-AEBmAIGoAL2AsICChAAGEcY1gQYsAPCAgcQIxiwAhgnwgIGEAAYBxgewgIIEAAYCBgeGA2YAwCIBgGQBgiSBwM1LjGgB78gsgcDMy4xuAfqAsIHBTAuMi40yAcW&sclient=gws-wiz-serp */
 }
 
 .sale, .discount, .percent {
@@ -88,12 +87,30 @@ header nav > ul > li > a:has(+ ul a.current) {
 }
 
 .sale{
-    left: 25%;
-    top: 15px;
-    letter-spacing: 10px;
+    left: 12%;
+    top: 8px;
+    letter-spacing: 18px;
     font-size: 200px;
-    color: #edd2b1;
-    text-shadow: -8px 15px 7px #4f2121;
-    transform: rotateX(5deg) rotateY(4deg) scaleX(1.35) skewX(-5deg);
+    color: #f8d3b6;
+    text-shadow: -10px 20px 5px #4f2121;
+    transform: rotateX(5deg) rotateY(10deg) scaleX(1.5) skewX(-5deg);
     transform-origin: left bottom;
+}
+
+.discount {
+    top: 30%;
+    left: 29.5%;
+    letter-spacing: 8px;
+    font-size: 30px;
+    color: #f8d3b6;
+    text-shadow: -6px 3px 4px #4f2121;
+    transform: rotateX(10deg) rotateY(-36deg) scaleX(1.5) skewX(-10deg);
+    transform-origin: left bottom;
+}
+
+.percent > ul {
+    position: absolute;
+    list-style: none;
+    top: 170px;
+    font-size: 80px;
 }
