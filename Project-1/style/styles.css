@@ -2,7 +2,52 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #36454f;
 
+}
+
+header {
+    display: flex;
+    background-color: #e1c16e;
+    padding-left: 50px;
+}
+
+nav {
+    padding-left: 125px;
+}
+
+.navLink {
+    list-style: none;
+    display: flex;
+    gap: 2em;
+    padding-top: 15px;
+}
+
+.navLink > li > a:link {
+    text-decoration: none;
+    background-color: #f3cb7b;
+    border: 2px solid black;
+    font-weight: 600;
+    transition: color 0.3s ease;
+    font-size: 20px;
+}
+
+header nav a:visited {
+	color: black;
+}
+
+header nav a:focus {
+	background: orange;
+}
+
+header nav a:hover {
+	background: #ffffff;
+}
+
+header nav a.current,
+header nav > ul > li > a:has(+ ul a.current) {
+	background: #ca4b3d;
+	font-weight: bold;
 }
 
 .saleSign{
@@ -27,6 +72,7 @@ html{
     max-height: 1024px;
     left: 20px;
     top: 80px;
+   
 }
 
 .sale, .discount, .percent {
@@ -44,10 +90,10 @@ html{
 .sale{
     left: 25%;
     top: 15px;
-    letter-spacing: 0;
+    letter-spacing: 10px;
     font-size: 200px;
-    color: #f0e1ce;
-    text-shadow: -2px 2px 0px #000000;
-    transform: rotateX(5deg) rotateY(2deg) scaleX(1.2) skewX(-5deg);
+    color: #edd2b1;
+    text-shadow: -8px 15px 7px #4f2121;
+    transform: rotateX(5deg) rotateY(4deg) scaleX(1.35) skewX(-5deg);
     transform-origin: left bottom;
 }
