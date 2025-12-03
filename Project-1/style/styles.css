@@ -7,29 +7,47 @@ html{
 
 .saleSign{
     position: relative;
-    background:url(../images/antique-brass-carbid.png), linear-gradient(165deg, #ca4b3d 45%, #e4c896 55%);
-    /* background-image: url(../images/antique-brass-carbid.png); used ai to remove background */
+    background:linear-gradient(165deg, #ca4b3d 45%, #e4c896 55%);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    width: 1024px;
-    height: 1024px;
+    width: 70vw;
+    height: 70vw;
+    max-width: 1024px;
+    max-height: 1024px;
     margin: auto;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.lamp {
+    position: absolute;
+    width: 75vw;
+    height: 75vw;
+    max-width: 1024px;
+    max-height: 1024px;
+    left: 20px;
+    top: 80px;
 }
 
 .sale, .discount, .percent {
     position: absolute;
     line-height: 1;
     text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.promoSign {
+    perspective: 200px;
 }
 
 .sale{
-    left: 38%;
-    top: 30px;
+    left: 25%;
+    top: 15px;
     letter-spacing: 0;
-    font-size: 13em;
-    color: #fdf5e6;
-    text-shadow: -4px 8px 10px #a83a2e;
-    transform: scale(1.2,1);
+    font-size: 200px;
+    color: #f0e1ce;
+    text-shadow: -2px 2px 0px #000000;
+    transform: rotateX(5deg) rotateY(2deg) scaleX(1.2) skewX(-5deg);
+    transform-origin: left bottom;
 }
