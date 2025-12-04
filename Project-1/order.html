@@ -8,12 +8,13 @@
     <meta name="viewport" content="width=device-width" />
     <title>ORDER PAGE CARBIDE LAMP</title>
     <link rel="stylesheet" href="style/styles.css" />
-    <script src="./js/nav.js" defer></script> 
+    <script src="./js/nav.js" defer></script>
 </head>
 
 <body>
     <header>
-       <h1>CARBIDE MINER'S CO.</h1>
+
+        <h1>CARBIDE MINER'S CO.</h1>
         <nav>
             <ul class="navLink">
                 <li><a href="index.html">HOME</a></li>
@@ -21,13 +22,53 @@
                 <li><a href="order.html">ORDER</a></li>
             </ul>
         </nav>
+
     </header>
     <main>
 
+        <h2>Order Information</h2>
+        <form>
+
+            <p>
+                <label for="information">Name:</label>
+                <input type="text" id="information" name="clientName" required placeholder="First AND Last" />
+            </p>
+
+            <p>
+                
+            </p>
+
+            <p>
+                <label for="payment">
+                    <span>Form of payment:</span>
+                </label>
+                <select id="payment" name="user-payment" required>
+                    <option value="gold">Gold</option>
+                    <option value="silver">Silver</option>
+                    <option value="banknote">Bank Note</option>
+                    <option value="treasury">Treasury Note</option>
+                    <option value="cert">Silver Certificate</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="orderType">
+                    <span>Delivery or Pickup:</span>
+                </label>
+                <select id="orderType" name="orderType" required>
+                    <option value="pickup">Pickup</option>
+                    <option value="delivery">Delivery</option>
+                </select>
+            </p>
+
+        </form>
+        <h3>Please allow up to 1 month for your delivery to be processed if being delivered. Either settle the debt with your local merchant or have the funds on hand
+            at time of the delivery.
+        </h3>
 
     </main>
     <footer>
-
+        <small>ALL RIGHTS RESERVED CM CO. LLC</small>
     </footer>
 
 </body>

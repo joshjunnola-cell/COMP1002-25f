@@ -62,7 +62,6 @@ header nav > ul > li > a:has(+ ul a.current) {
 
 h2 {
     text-align: center;
-    
 }
 
 .saleSign::after {               /* Sale Sign including additional text information */
