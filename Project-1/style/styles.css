@@ -1,7 +1,4 @@
 html{
-    display: flex;
-    align-items: center, top;
-    justify-content: center;
     background-color: #36454f;
     height: 100%;
 }
@@ -10,32 +7,36 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    width: 100%;
+    background-color: #b08a54;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 header {                        /* Header and NAV found here */
     width: 100%;
+    max-width: 1200px;
     display: flex;
     background-color: #e1c16e;
-    padding-left: 5%;
-    gap: 13em;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
     white-space: nowrap;
-}
-
-nav {
-    padding-left: 125px;
 }
 
 .navLink {
     list-style: none;
     display: flex;
     gap: 2em;
-    padding-top: 0.8em;
 }
 
 .navLink > li > a:link {
     text-decoration: none;
     background-color: #f3cb7b;
     border: 2px solid black;
+    border-radius: 10%;
+    padding: 2%;
     font-weight: 600;
     transition: color 0.3s ease;
     font-size: 20px;
@@ -50,7 +51,7 @@ header nav a:focus {
 }
 
 header nav a:hover {
-	background: #ffffff;
+	background: #f0bc80;
 }
 
 header nav a.current,
@@ -69,8 +70,10 @@ h2 {
     position: absolute;
     background: url(../images/grunge-distressed-AI.png) ; /* asked AI to create overlay for me */
     opacity: 0.4;
+    filter: invert(100%);
+    filter: brightness(110%);
     inset: 0;
-    mix-blend-mode: screen;
+    mix-blend-mode: multiply;
 }
 
 .saleSign{
@@ -82,7 +85,7 @@ h2 {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    width: 50em;
+    max-width: 50em;
     height: 50em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     overflow: hidden;
