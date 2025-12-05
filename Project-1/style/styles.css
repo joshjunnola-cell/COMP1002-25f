@@ -9,6 +9,9 @@ body{
     min-height: 100vh;
     width: 100%;
     background-color: #b08a54;
+    mask-image: linear-gradient(to right, #e1c16e 80%, transparent),
+    linear-gradient(to left, #e1c16e 80%, transparent);
+    mask-composite: intersect;
     align-items: center;
     margin: 0;
     padding: 0;
@@ -19,10 +22,21 @@ header {                        /* Header and NAV found here */
     max-width: 1200px;
     display: flex;
     background-color: #e1c16e;
+    mask-image: linear-gradient(to bottom, #e1c16e 90%, transparent),
+    linear-gradient(to right, #e1c16e 98%, transparent),
+    linear-gradient(to left, #e1c16e 98%, transparent);
+    mask-composite: intersect;
+    text-shadow: 1px 1px 4px #802c23;
     justify-content: space-between;
     align-items: center;
     padding: 0 2em;
     white-space: nowrap;
+    color: #2c1b0f;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1 {
+    letter-spacing: -2px;
 }
 
 .navLink {
@@ -36,7 +50,7 @@ header {                        /* Header and NAV found here */
     background-color: #f3cb7b;
     border: 2px solid black;
     border-radius: 10%;
-    padding: 2%;
+    padding: 4%;
     font-weight: 600;
     transition: color 0.3s ease;
     font-size: 20px;
@@ -51,7 +65,7 @@ header nav a:focus {
 }
 
 header nav a:hover {
-	background: #f0bc80;
+	background: #ebb16e;
 }
 
 header nav a.current,
@@ -62,6 +76,17 @@ header nav > ul > li > a:has(+ ul a.current) {
 
 h2 {
     text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #2c1b0f;
+    margin: 1em;
+    text-shadow: 1px 1px 4px #000000;
+}
+
+.sold {
+    font-size: 2.2em;
+    text-decoration: underline; 
 }
 
 .saleSign::after {               /* Sale Sign including additional text information */
@@ -126,7 +151,7 @@ h2 {
 
 .discount {
     top: 30%;
-    left: 40.5%;
+    left: 41%;
     letter-spacing: 8px;
     font-size: 2em;
     color: #f8d3b6;
