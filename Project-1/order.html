@@ -17,55 +17,60 @@
         <h1>CARBIDE MINER'S CO.</h1>
         <nav>
             <ul class="navLink">
-                   <li><a href="index.html">HOME</a></li>
-                    <li><a href="info.html">INFO</a></li>
-                    <li><a href="order.html">ORDER</a></li>
-                    <li><a href="contactSup.html">SUPPORT</a></li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="info.html">INFO</a></li>
+                <li><a href="order.html">ORDER</a></li>
+                <li><a href="contactSup.html">SUPPORT</a></li>
             </ul>
         </nav>
 
     </header>
-    <main>
+    <main class="orderMain">
 
         <h2>Order Information</h2>
-        <form>
+        <div class="orderForm">
+            <form>
+                <p>
+                    <label for="information">Name:</label>
+                    <input type="text" id="information" name="clientName" required placeholder="First AND Last" />
+                </p>
 
-            <p>
-                <label for="information">Name:</label>
-                <input type="text" id="information" name="clientName" required placeholder="First AND Last" />
-            </p>
-
-            <p>
-                
-            </p>
-
-            <p>
-                <label for="payment">
-                    <span>Form of payment:</span>
-                </label>
-                <select id="payment" name="user-payment" required>
-                    <option value="gold">Gold</option>
-                    <option value="silver">Silver</option>
-                    <option value="banknote">Bank Note</option>
-                    <option value="treasury">Treasury Note</option>
-                    <option value="cert">Silver Certificate</option>
-                </select>
-            </p>
-
-            <p>
-                <label for="orderType">
-                    <span>Delivery or Pickup:</span>
-                </label>
-                <select id="orderType" name="orderType" required>
-                    <option value="pickup">Pickup</option>
-                    <option value="delivery">Delivery</option>
-                </select>
-            </p>
-
-        </form>
-        <h3>Please allow up to 1 month for your delivery to be processed if being delivered. Either settle the debt with your local merchant or have the funds on hand
-            at time of the delivery.
-        </h3>
+                <p>
+                    <label for="address">Shipping Address:</label>
+                    <input type="text" id="address" name="clientAddress" required placeholder="Street, City, State, Zip" />
+                </p>
+                <p>
+                    <label for="orderType">Delivery or Pickup:</label>
+                    <select id="orderType" name="orderType" required>
+                        <option value="pickup">Pickup</option>
+                        <option value="delivery">Delivery</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="payment">
+                        <span>Form of payment:</span>
+                    </label>
+                    <select id="payment" name="user-payment" required>
+                        <option value="gold">Gold</option>
+                        <option value="silver">Silver</option>
+                        <option value="banknote">Bank Note</option>
+                        <option value="treasury">Treasury Note</option>
+                        <option value="cert">Silver Certificate</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" name="order-quantity" min="1" max="10" required placeholder="1/10"/>
+                </p>
+                <p>Must have equivalent to 3.7Oz of Gold!</p>
+                <button class="orderSubmit" type="submit">Submit Order</button>
+            </form>
+        </div>
+        <p class="notice"><strong>Please allow up to 1 month for your delivery to be processed if being delivered.
+                Either settle the debt with your local merchant or have the funds on hand
+                at time of the delivery.</strong>
+        </p>
+        <h3>CUSTOMER REVIEW'S:</h3>
 
     </main>
     <footer>
