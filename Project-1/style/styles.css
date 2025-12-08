@@ -130,37 +130,8 @@ h2 {
     filter: drop-shadow(5px 8px 10px) /* how to add drop shadow to img https://www.google.com/search?q=css+add+drop+shadow+to+image&sca_esv=8dfe9edb86176f37&sxsrf=AE3TifNPwQfJAdEfio3-_1Q85cjm6rzKAw%3A1764787860861&ei=lIYwaZmvNMrmwN4PgquBiQQ&ved=0ahUKEwiZybOMi6KRAxVKM9AFHYJVIEEQ4dUDCBE&uact=5&oq=css+add+drop+shadow+to+image&gs_lp=Egxnd3Mtd2l6LXNlcnAiHGNzcyBhZGQgZHJvcCBzaGFkb3cgdG8gaW1hZ2UyBBAAGB4yCxAAGIAEGIoFGIYDMggQABiJBRiiBDIFEAAY7wUyBRAAGO8FSOwPUIAKWOcNcAJ4AZABAJgBkgGgAekDqgEDNC4xuAEDyAEA-AEBmAIGoAL2AsICChAAGEcY1gQYsAPCAgcQIxiwAhgnwgIGEAAYBxgewgIIEAAYCBgeGA2YAwCIBgGQBgiSBwM1LjGgB78gsgcDMy4xuAfqAsIHBTAuMi40yAcW&sclient=gws-wiz-serp */
 }
 
-.jsClick {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-}
-
-.half {
-    position: absolute;
-    width: 100%;
-    height: 50%;
-    font-size: 2em;
-    text-align: center;
-    line-height: 25em;
-    pointer-events: auto;
+.sale, .discount {
     cursor: pointer;
-    transition: background 0.3s ease;
-}
-
-.topHalf {
-    top: 0;
-}
-
-.botHalf {
-    bottom: 0;
-}
-
-.half:hover {
-    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .sale, .discount, .percent {

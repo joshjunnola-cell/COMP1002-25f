@@ -14,29 +14,29 @@ navLinks.forEach((element) => {
     };
 });
 
-const topHover = document.getElementById("topHov");
-const bottomHover = document.getElementById("bottomHov");
+const saleTxt = document.getElementById("saleText");
+const discountTxt = document.getElementById("discountText");
 
-topHover.addEventListener("mouseenter", () => {
-    topHover.textContent = "ORDER PAGE!";
+saleTxt.addEventListener("mouseenter", () => {
+    saleTxt.textContent = "ORDER PAGE!";
 });
 
-topHover.addEventListener("mouseleave", () => {
-    topHover.textContent = "SALE!";
+saleTxt.addEventListener("mouseleave", () => {
+    saleTxt.textContent = "SALE!";
 });
 
-topHover.addEventListener("click", () => {
+saleTxt.addEventListener("click", () => {
     window.location.href = "order.html";
 });
 
-bottomHover.addEventListener("mouseenter", () => {
-    bottomHover.textContent = "INFO PAGE!";
+discountTxt.addEventListener("mouseenter", () => {
+    discountTxt.textContent = "INFO PAGE!";
 });
 
-bottomHover.addEventListener("mouseleave", () => {
-    bottomHover.textContent = "LEARN MORE!";
+discountTxt.addEventListener("mouseleave", () => {
+    discountTxt.textContent = "LEARN MORE!";
 });
 
-bottomHover.addEventListener("click", () => {
+discountTxt.addEventListener("click", () => {
     window.location.href = "info.html";
 });
