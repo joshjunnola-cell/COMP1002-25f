@@ -14,29 +14,23 @@ navLinks.forEach((element) => {
     };
 });
 
-const saleTxt = document.getElementById("saleText");
-const discountTxt = document.getElementById("discountText");
+document.addEventListener("DOMContentLoaded", () => {
+    const topHalf = document.getElementById("topHalf");
+    const bottomHalf = document.getElementById("bottomHalf");
 
-saleTxt.addEventListener("mouseenter", () => {
-    saleTxt.textContent = "ORDER PAGE!";
-});
+    topHalf.ad("mouseover", () => {
+        topHalf.style.background = "linear-gradient(to bottom, rgba(255, 255, 0, 0.5), rgba(255, 255, 0, 0))";
+        topHalf.textContent = "On Sale Now!";
+    });
+    topHalf.addEventListener("click", () => {
+        window.location.href = "order.html";
+    });
 
-saleTxt.addEventListener("mouseleave", () => {
-    saleTxt.textContent = "SALE!";
-});
-
-saleTxt.addEventListener("click", () => {
-    window.location.href = "order.html";
-});
-
-discountTxt.addEventListener("mouseenter", () => {
-    discountTxt.textContent = "INFO PAGE!";
-});
-
-discountTxt.addEventListener("mouseleave", () => {
-    discountTxt.textContent = "LEARN MORE!";
-});
-
-discountTxt.addEventListener("click", () => {
-    window.location.href = "info.html";
+    bottomHalf.addEventListener("mouseover", () => {
+        bottomHalf.style.background = "linear-gradient(to top, rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0))";
+        bottomHalf.textContent = "Learn More!";
+    });
+    bottomHalf.addEventListener("click", () => {
+        window.location.href = "info.html";
+    });
 });
