@@ -124,25 +124,27 @@ h2 {
 .hover-area {
     position: absolute;
     width: 100%;
-    height: 49.5%;
+    height: 60%;
     cursor: pointer;
     background: transparent;
     z-index: 5;
+    text-align: center;
 }
 
 .topHalf {
     top: 0;
-    border: blue solid 2px;
-    bottom: 165deg;
+    transform: skewY(-13deg);
+    transform-origin: bottom left;
 }
 
 .bottomHalf {
-    bottom: 0;
-    border: red solid 2px;
+    bottom: -10em;
+    transform: skewY(-13deg);
+    transform-origin: top left;
 }
 
 .hover-area:hover {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 42, 42, 0.2);
 }
 
 .lamp {
