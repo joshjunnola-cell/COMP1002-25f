@@ -17,6 +17,7 @@ navLinks.forEach((element) => {
 document.addEventListener("DOMContentLoaded", () => {
     const topHalf = document.getElementById("topHalf");
     const bottomHalf = document.getElementById("bottomHalf");
+    
 
     topHalf.addEventListener("mouseover", () => {
         topHalf.textContent = "On Sale Now!";
@@ -37,4 +38,8 @@ document.addEventListener("DOMContentLoaded", () => {
     bottomHalf.addEventListener("mouseout", () => {
         bottomHalf.textContent = "";
     });
+// topHalf.textContent.style.top = "-10em"; 
+// Unable to figure this out, was attempting to make the text centered and appear a certain way but im not sure how to go about it.
+// bottomHalf.textContent.style.bottom = "-10em";
 });
+

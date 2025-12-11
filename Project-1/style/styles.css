@@ -137,10 +137,19 @@ h2 {
     transform-origin: bottom left;
 }
 
+.topHalf:hover {
+    background: rgba(42, 255, 42, 0.2);
+
+}
+
 .bottomHalf {
     bottom: -10em;
     transform: skewY(-13deg);
     transform-origin: top left;
+}
+
+.bottomHalf:hover {
+    background: rgba(42, 42, 255, 0.2);
 }
 
 .hover-area:hover {
