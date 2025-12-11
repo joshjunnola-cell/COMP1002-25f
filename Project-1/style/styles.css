@@ -124,7 +124,7 @@ h2 {
 .hover-area {
     position: absolute;
     width: 100%;
-    height: 60%;
+    height: 62%;
     cursor: pointer;
     background: transparent;
     z-index: 5;
@@ -137,19 +137,11 @@ h2 {
     transform-origin: bottom left;
 }
 
-.topHalf:hover {
-    background: rgba(42, 255, 42, 0.2);
-
-}
-
 .bottomHalf {
-    bottom: -10em;
+    bottom: -8em;
+    font-size: 1.5em;
     transform: skewY(-13deg);
     transform-origin: top left;
-}
-
-.bottomHalf:hover {
-    background: rgba(42, 42, 255, 0.2);
 }
 
 .hover-area:hover {

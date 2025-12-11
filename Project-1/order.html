@@ -6,6 +6,8 @@
     <!--Meta info-->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
+    <link rel="icon" href="./images/vintage-lamp-favicon.webp" type="image/x-icon" />
+    <!--img sourced from https://www.shutterstock.com/search/miner%27s-lamp?image_type=illustration -->
     <title>ORDER PAGE CARBIDE LAMP</title>
     <link rel="stylesheet" href="style/styles.css" />
     <script src="./js/nav.js" defer></script>
@@ -37,7 +39,8 @@
 
                 <p>
                     <label for="address">Shipping Address:</label>
-                    <input type="text" id="address" name="clientAddress" required placeholder="Street, City, State, Zip" />
+                    <input type="text" id="address" name="clientAddress" required
+                        placeholder="Street, City, State, Zip" />
                 </p>
                 <p>
                     <label for="orderType">Delivery or Pickup:</label>
@@ -60,7 +63,8 @@
                 </p>
                 <p>
                     <label for="quantity">Quantity:</label>
-                    <input type="number" id="quantity" name="order-quantity" min="1" max="10" required placeholder="1/10"/>
+                    <input type="number" id="quantity" name="order-quantity" min="1" max="10" required
+                        placeholder="1/10" />
                 </p>
                 <p>Must have equivalent to 3.7Oz of Gold!</p>
                 <button class="orderSubmit" type="submit">Submit Order</button>
@@ -70,13 +74,44 @@
                 Either settle the debt with your local merchant or have the funds on hand
                 at time of the delivery.</strong>
         </p>
-        <h3>CUSTOMER REVIEW'S:</h3>
+        <section>
+            <h3>CUSTOMER REVIEW'S:</h3>
+            <article class="review">
+                <header>
+                    <h4 class="reviewCust">John D.</h4>
+                    <div class="starRating" aria-label="5 out of 5 stars">⭐⭐⭐⭐⭐</div>
+                    <p>"This carbide lamp is a game-changer! It lights up my mining expeditions like nothing else.
+                        Highly
+                        recommend to any serious miner."</p>
+                </header>
+            </article>
 
+            <article class="review">
+                <header>
+                    <h4 class="reviewCust">Sarah K.</h4>
+                    <div class="starRating" aria-label="4 out of 5 stars">⭐⭐⭐⭐</div>
+                    <p>"I was skeptical at first, but this lamp exceeded my expectations. The brightness and durability
+                        are
+                        top-notch. A must-have for anyone working underground."</p>
+                </header>
+            </article>
+
+            <article class="review">
+                <header>
+                    <h4 class="reviewCust">Mike L.</h4>
+                    <div class="starRating" aria-label="2 out of 5 stars">⭐⭐</div>
+                    <p>"This damn thing basically blew up in my face, little did I know I was letting too much water out
+                        of the reservoir.
+                        Maybe make it more clear next time!?!?!? Once I figured it, out it was great compared to my old
+                        candle lit helmet, basically no soot either!"</p>
+                </header>
+            </article>
+        </section>
     </main>
     <footer>
-        <p><small>ALL RIGHTS RESERVED CM CO. LLC</small></p>
         <a href="corporate.html">Corporate Information</a>
         <a href="#top">Back to Top</a>
+        <p><small>ALL RIGHTS RESERVED CM CO. LLC</small></p>
     </footer>
 
 </body>
