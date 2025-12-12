@@ -43,3 +43,10 @@ document.addEventListener("DOMContentLoaded", () => {
 // bottomHalf.textContent.style.bottom = "-10em";
 });
 
+document.addEventListener("DOMContentLoaded", () => {
+    const orderButton = document.getElementById("orderButton");
+
+    orderButton.addEventListener("click", () => {
+        alert("Thank you for your order! We will process it shortly.");
+    });
+});
