@@ -283,7 +283,7 @@ section > .imgContainer {
     text-shadow: 1px 1px 6px #302a2a;
 }
 
-footer {
+footer { /* footer styles */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -312,7 +312,7 @@ h3 {
     margin-top: 2em;
 }
 
-.orderForm {
+.orderForm { /* Order form styles */
     background-color: #e1c16e;
     border-radius: 10px;
     box-shadow: 1px 1px 15px #383737;
@@ -327,7 +327,7 @@ h3 {
     flex-direction: column;
 }
 
-.orderSubmit {
+.orderSubmit { /* Submit button on order page */
     margin-bottom: 1em;
     padding: 0.5em 1em;
     font-size: 1.2em;
@@ -340,19 +340,22 @@ h3 {
     box-shadow: 2px 2px 6px #000000;
 }
 
-.review > header {
-    display: block;
-    width: 100%;
-    margin-bottom: 0.5em;
-}
-
-.review > header > p {
-    font-size: 1em;
-    margin: 0.2em 0;
-    padding: 0.4em;
-    background-color: #db4747;
-}
-
 .orderSubmit:hover {
     background-color: #972a19;
+}
+
+.review > .orderHead { /* Review section on order page */
+    display: block;
+    width: 100%;
+    margin-bottom: 0.7em;
+}
+
+.review > .orderHead > p {
+    font-size: 1em;
+    margin: 0.2em;
+    padding: 0.2em 0 1em 0;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    background-color: #db4747;
 }
