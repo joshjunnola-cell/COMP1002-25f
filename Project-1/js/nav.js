@@ -15,9 +15,10 @@ navLinks.forEach((element) => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
+    // hover effects for home page on sale sign, allow navigation to order/info pages on top and bottom half clicks
     const topHalf = document.getElementById("topHalf");
     const bottomHalf = document.getElementById("bottomHalf");
-    
+
 
     topHalf.addEventListener("mouseover", () => {
         topHalf.textContent = "On Sale Now!";
@@ -38,12 +39,13 @@ document.addEventListener("DOMContentLoaded", () => {
     bottomHalf.addEventListener("mouseout", () => {
         bottomHalf.textContent = "";
     });
-// topHalf.textContent.style.top = "-10em"; 
-// Unable to figure this out, was attempting to make the text centered and appear a certain way but im not sure how to go about it.
-// bottomHalf.textContent.style.bottom = "-10em";
+    // topHalf.textContent.style.top = "-10em"; 
+    // Unable to figure this out, was attempting to make the text centered and appear a certain way but im not sure how to go about it.
+    // bottomHalf.textContent.style.bottom = "-10em";
 });
 
 document.addEventListener("DOMContentLoaded", () => {
+    // order button alert, not sure how to implement wait for required fields to be filled before alert yet
     const orderButton = document.getElementById("orderButton");
 
     orderButton.addEventListener("click", () => {
