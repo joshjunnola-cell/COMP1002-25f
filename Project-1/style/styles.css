@@ -300,6 +300,7 @@ footer a {
 .orderMain { /* Order form page */
     text-align: center;
     max-width: 600px;
+    margin: 0 auto;
 }
 
 .notice {
@@ -349,9 +350,16 @@ h3 {
     width: 100%;
 }
 
+.customerDiv {
+    display: flex;
+    align-items: center;
+    max-width: 700px;
+}
+
 .orderMain > section {
-    max-height: 500px;
     padding-top: 0.1em;
+    margin: 0 auto;
+    display: flex;
 }
 
 .reviewCust {
@@ -360,7 +368,7 @@ h3 {
 
 .review > .orderHead > p {
     font-size: 1em;
-    margin: 0.2em;
+    margin: 0.4em;
     padding: 0.2em 0 1em 0;
     color: black;
     word-wrap: break-word;
@@ -374,7 +382,7 @@ h3 {
     border-radius: 10px;
     box-shadow: 1px 1px 15px #383737;
     max-width: 700px;
-    margin: auto;
+    margin: 1em auto;
     text-align: center;
 }
 
@@ -394,6 +402,7 @@ h3 {
     margin: 0.5em 0;
     padding-left: 1em;
     position: relative;
+    text-decoration: underline;
 }
 
 .contactUs > ul > li::before { /* Contact us list bullet points */
@@ -407,7 +416,7 @@ h3 {
     border-radius: 10px;
     box-shadow: 1px 1px 15px #383737;
     max-width: 300px;
-    margin: 2em auto;
+    margin: 1em auto;
     padding: 0.6em;
     text-align: center;
     line-height: 1.6;
@@ -422,4 +431,25 @@ h3 {
     text-align: center;
     max-width: 600px;
     margin: auto;
+}
+
+.supportMain a:hover {
+    color: #d88d37;
+}
+
+.feedback { /* Leave a review support page */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    background-color: #36454f;
+    color: #000000;
+    text-decoration: underline;
+    max-width: 500px;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.feedback > h4 {
+    margin-right: 0.5em;
 }
