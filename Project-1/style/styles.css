@@ -417,7 +417,7 @@ h3 {
     box-shadow: 1px 1px 15px #383737;
     max-width: 300px;
     margin: 1em auto;
-    padding: 0.6em;
+    padding: 1em;
     text-align: center;
     line-height: 1.6;
     font-size: 1.1em;
@@ -452,4 +452,13 @@ h3 {
 
 .feedback > h4 {
     margin-right: 0.5em;
+}
+
+.corp { /* corporate page */
+    max-width: 1000px;
+    text-align: center;
+}
+
+.corp > p {
+    font-size: 1.2em;
 }
